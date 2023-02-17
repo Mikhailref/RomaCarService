@@ -1,0 +1,38 @@
+.feedback-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
+
+  .feedback-card {
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px #ddd;
+    overflow: hidden;
+  }
+
+  .feedback-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+  }
+
+  .feedback-card h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .feedback-card p {
+    font-size: 18px;
+    margin: 20px;
+    text-align: center;
+  }
